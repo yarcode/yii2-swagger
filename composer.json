@@ -1,0 +1,17 @@
+{
+  "name": "yarcode/yii2-swagger",
+  "description": "Swagger intergation with Yii2",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","swagger","Restful","document"],
+  "license": "MIT",
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "symfony/yaml": "~3.0",
+    "bower-asset/swagger-ui": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "YarCode\\Yii2\\Swagger\\": "src"
+    }
+  }
+}
